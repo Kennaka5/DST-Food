@@ -1,0 +1,16 @@
+{
+  "db": {
+    "name": "db",
+    "connector": "memory"
+  },
+  "MongoDB": {
+    "host": "ds249707.mlab.com",
+    "port": 49707,
+    "url": "",
+    "database": "doorstopfood",
+    "password": "doorstopfood",
+    "name": "MongoDB",
+    "user": "doorstopfood",
+    "connector": "mongodb"
+  }
+}

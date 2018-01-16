@@ -1,0 +1,41 @@
+{
+  "name": "menu_item",
+  "base": "PersistedModel",
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "category": {
+      "type": "string",
+      "required": true
+    },
+    "item_name": {
+      "type": "string",
+      "required": true
+    },
+    "picture": {
+      "type": "string"
+    },
+    "price": {
+      "type": "number",
+      "required": true
+    },
+    "description": {
+      "type": "string",
+      "required": true
+    },
+    "quantity": {
+      "type": "number"
+    }
+  },
+  "validations": [],
+  "relations": {
+    "orders": {
+      "type": "hasOne",
+      "model": "order",
+      "foreignKey": ""
+    }
+  },
+  "acls": [],
+  "methods": {}
+}
